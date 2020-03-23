@@ -13,6 +13,7 @@ import {
   UIButton,
   UITextStyle,
   Colors,
+  UIFormControl,
 } from '@alecortega/design-system';
 import styled from 'styled-components';
 import axios from 'axios';
@@ -116,10 +117,12 @@ const Home = () => {
               >
                 <UIFlex align="center">
                   <UIBox basis={{ sm: '100%', md: '350px' }}>
-                    <UITextInput
-                      placeholder="Enter your email address"
-                      name="email"
-                    />
+                    <UIFormControl name="email">
+                      <UITextInput
+                        placeholder="Enter your email address"
+                        name="email"
+                      />
+                    </UIFormControl>
                   </UIBox>
                   <UIBox basis={{ sm: '100%', md: 'auto' }}>
                     <UIButton
