@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import {
   UIApp,
   UIPage,
@@ -18,6 +17,7 @@ import {
 import styled from 'styled-components';
 import axios from 'axios';
 import * as yup from 'yup';
+import Head from 'next/head';
 
 const AccentBackground = styled.div`
   user-select: none;
@@ -77,31 +77,6 @@ const Home = () => {
     <UIApp use="marketing">
       <Head>
         <title>Commonality</title>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="stylesheet" href="https://use.typekit.net/hrd8sxz.css" />
-
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=UA-66576358-5"
-        ></script>
-
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-66576358-5"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-66576358-5');
-        </script>
-
-
-        <script
-          type="text/javascript"
-          id="hs-script-loader"
-          async
-          defer
-          src="//js.hs-scripts.com/7282015.js"
-        ></script>
       </Head>
       <UIPage>
         <UISection fullscreen={true}>
@@ -131,9 +106,9 @@ const Home = () => {
                 initialValues={{ email: '' }}
                 className="m-top-6"
               >
-                <UIFlex align="center">
+                <UIFlex align="flex-start">
                   <UIBox basis={{ sm: '100%', md: '350px' }}>
-                    <UIFormControl name="email">
+                    <UIFormControl name="email" className="m-bottom-0">
                       <UITextInput
                         placeholder="Enter your email address"
                         name="email"
