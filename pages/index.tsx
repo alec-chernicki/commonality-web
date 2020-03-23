@@ -33,9 +33,10 @@ const AccentBackground = styled.div`
   height: 1000px;
   z-index: 10;
   overflow: hidden;
+  display: none;
 
   @media screen and (min-width: 1000px) {
-    display: none;
+    display: block;
   }
 `;
 
