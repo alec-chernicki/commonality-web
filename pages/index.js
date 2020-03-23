@@ -79,6 +79,22 @@ const Home = () => {
         <title>Commonality</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://use.typekit.net/hrd8sxz.css" />
+
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=UA-66576358-5"
+        ></script>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-66576358-5"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-66576358-5');
+        </script>
+
+
         <script
           type="text/javascript"
           id="hs-script-loader"
