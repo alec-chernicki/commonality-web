@@ -51,33 +51,46 @@ const Home = () => {
               <UIImage src="/commonality-word-light.svg" />
             </UIBox>
           </UIFlex>
-          <UIFlex justify="center" className="m-top-15 p-x-2">
-            <UIBox basis="500px" grow={0} shrink={0} className="text-center">
-              <UIHeader>Build your north star</UIHeader>
-              <UIHeader level="5">
-                Unify data from the software your employees love and align all
-                your teams towards common goals.
-              </UIHeader>
-              <UIForm
-                onSubmit={handleSubmit}
-                initialValues={{ email: '' }}
-                className="m-top-8"
-              >
-                <UIFlex align="center">
-                  <UIBox grow={2} className="m-right-2">
-                    <UITextInput name="email" />
-                  </UIBox>
-                  <UIBox>
-                    <UIButton>Register</UIButton>
-                  </UIBox>
-                </UIFlex>
-              </UIForm>
+          <UIFlex justify="center" className="m-top-14 p-x-2">
+            <UIBox basis="800x" grow={0} shrink={2} className="text-center">
+              <UIHeader>Build your company's north star</UIHeader>
+              <UIFlex justify="center">
+                <UIBox basis="500px" grow={0} shrink={2}>
+                  <UIHeader level="5">
+                    Unify data from the software your employees love and tie
+                    goals from every team back to key company metrics
+                  </UIHeader>
+                </UIBox>
+              </UIFlex>
+              <UIFlex justify="center" className="m-top-6">
+                <UIBox basis="400px">
+                  <UIForm onSubmit={handleSubmit} initialValues={{ email: '' }}>
+                    <UIFlex align="center">
+                      <UIBox grow={2} className="m-right-2">
+                        <UITextInput
+                          name="email"
+                          placeholder="your@email.com"
+                        />
+                      </UIBox>
+                      <UIBox>
+                        <UIButton>Register</UIButton>
+                      </UIBox>
+                    </UIFlex>
+                  </UIForm>
+                </UIBox>
+              </UIFlex>
             </UIBox>
           </UIFlex>
         </UISection>
         <UISection use="neutral">
-          <UIFlex>
-            <UIBox basis="50%"></UIBox>
+          <UIFlex align="center">
+            <UIBox
+              basis={{ sm: '100%', md: '47%' }}
+              grow={0}
+              className="m-right-6"
+            >
+              <UIImage src="/goals.svg" />
+            </UIBox>
             <UIBox basis="400px">
               <UIHeader level="3">Measureable goals</UIHeader>
               <p>
@@ -93,7 +106,11 @@ const Home = () => {
         </UISection>
         <UISection use="light">
           <UIFlex>
-            <UIBox basis="50%"></UIBox>
+            <UIBox
+              basis={{ sm: '100%', md: '47%' }}
+              grow={0}
+              className="m-right-6"
+            ></UIBox>
             <UIBox basis="400px">
               <UIHeader level="3">Top to bottom alignment</UIHeader>
               <p>

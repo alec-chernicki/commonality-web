@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@alecortega/design-system@0.10.47":
-  version "0.10.47"
-  resolved "https://registry.yarnpkg.com/@alecortega/design-system/-/design-system-0.10.47.tgz#7c8372f94c69295549f7bf3e9d5bb404dbacc17d"
-  integrity sha512-0zP7NsRg/LWCKUNg4PsYcS+33HJa+Orp1NQtH8FmgLApbFpQIO6ZyVxKhlDDfz30pbVDyb1Pk77cZjA2oieINQ==
+"@alecortega/design-system@0.10.48":
+  version "0.10.48"
+  resolved "https://registry.yarnpkg.com/@alecortega/design-system/-/design-system-0.10.48.tgz#f98da0992cd7a8aeae3b5eb0acc2086d16ad97e2"
+  integrity sha512-FAb2Nfa5+S8MvhXDoFhGEIaolP+pk73eyaLQYa9PIl2zX6ax3byd4TK9PKXD2Kyl7RLo8xTtKO0R2H+OzFi99w==
   dependencies:
     "@zendeskgarden/react-loaders" "^7.1.4"
     "@zendeskgarden/react-theming" "^7.0.0"
