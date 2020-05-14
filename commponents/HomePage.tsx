@@ -1,5 +1,4 @@
 import {
-  UIApp,
   UIPage,
   UISection,
   UIFlex,
@@ -11,9 +10,7 @@ import {
   UIButton,
   useToasts,
 } from '@alecortega/design-system';
-import styled from 'styled-components';
 import axios from 'axios';
-import * as yup from 'yup';
 import Head from 'next/head';
 
 const HomePage = () => {
