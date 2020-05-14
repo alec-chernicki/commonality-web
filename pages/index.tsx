@@ -13,6 +13,7 @@ import {
   UITextStyle,
   Colors,
   UIFormControl,
+  UIDivider,
 } from '@alecortega/design-system';
 import styled from 'styled-components';
 import axios from 'axios';
@@ -47,7 +48,7 @@ const Home = () => {
           fullscreen={true}
         >
           <UIFlex>
-            <UIBox basis="200px" grow={0} shrink={0}>
+            <UIBox basis="180px" grow={0} shrink={0}>
               <UIImage src="/commonality-word-light.svg" />
             </UIBox>
           </UIFlex>
@@ -82,47 +83,89 @@ const Home = () => {
             </UIBox>
           </UIFlex>
         </UISection>
-        <UISection use="neutral">
-          <UIFlex align="center">
-            <UIBox
-              basis={{ sm: '100%', md: '47%' }}
-              grow={0}
-              className="m-right-6"
-            >
-              <UIImage src="/goals.svg" />
-            </UIBox>
-            <UIBox basis="400px">
-              <UIHeader level="3">Measureable goals</UIHeader>
-              <p>
-                From OKRS to SMART goals and everything in between, create goals
-                unique caterered to your business. Create measurable results
-                that define success and monitor the progression of those goals
-                against your financial deadlines. Manually update goals or
-                automatically collect data from the tools your employees already
-                love using.
-              </p>
-            </UIBox>
-          </UIFlex>
-        </UISection>
-        <UISection use="light">
-          <UIFlex>
-            <UIBox
-              basis={{ sm: '100%', md: '47%' }}
-              grow={0}
-              className="m-right-6"
-            ></UIBox>
-            <UIBox basis="400px">
-              <UIHeader level="3">Top to bottom alignment</UIHeader>
-              <p>
-                Gain true insight into the performance of your business and tie
-                goals from every team back to key company metrics. Instantly
-                view the health of your company and discover areas of
-                opportunity or areas for investment.
-              </p>
+        <UISection use="neutral" className="p-bottom-10">
+          <UIFlex justify="center" className="m-top-6">
+            <UIBox basis="960px" grow={0}>
+              <UIFlex align="center">
+                <UIBox
+                  basis={{ sm: '100%', md: '50%' }}
+                  grow={0}
+                  className="md:m-right-6"
+                >
+                  <UIImage src="/goals.svg" />
+                </UIBox>
+                <UIBox basis="400px">
+                  <UIHeader level="3">Measureable goals</UIHeader>
+                  <p>
+                    From OKRS to SMART goals and everything in between, create
+                    goals unique caterered to your business. Create measurable
+                    results that define success and monitor the progression of
+                    those goals against your financial deadlines. Manually
+                    update goals or automatically collect data from the tools
+                    your employees already love using.
+                  </p>
+                </UIBox>
+              </UIFlex>
             </UIBox>
           </UIFlex>
         </UISection>
-        <UISection use="dark"></UISection>
+        <UISection use="light" className="p-top-10">
+          <UIFlex justify="center" className="m-top-6">
+            <UIBox basis="960px" grow={0}>
+              <UIFlex align="center">
+                <UIBox
+                  basis={{ sm: '100%', md: '50%' }}
+                  grow={0}
+                  className="md:m-right-6"
+                >
+                  <UIImage src="/alignment.svg" />
+                </UIBox>
+                <UIBox basis="400px">
+                  <UIHeader level="3">Top to bottom alignment</UIHeader>
+                  <p>
+                    Gain true insight into the performance of your business and
+                    tie goals from every team back to key company metrics.
+                    Instantly view the health of your company and discover areas
+                    of opportunity or areas for investment.
+                  </p>
+                </UIBox>
+              </UIFlex>
+            </UIBox>
+          </UIFlex>
+        </UISection>
+        <UISection
+          use="light"
+          className="p-y-14"
+          backgroundUrl="/bottom-divider.svg"
+        />
+        <UISection use="dark" className="p-top-10 p-bottom-15">
+          <UIFlex justify="center">
+            <UIBox basis="600px" className="text-center">
+              <UIHeader level="3">Get notified when we launch</UIHeader>
+              <p>
+                We're still working on getting everything perfect for you,
+                signup for updates and be the first to know when we launch.
+              </p>
+              <UIFlex justify="center" className="m-top-6">
+                <UIBox basis="400px">
+                  <UIForm onSubmit={handleSubmit} initialValues={{ email: '' }}>
+                    <UIFlex align="center">
+                      <UIBox grow={2} className="m-right-2">
+                        <UITextInput
+                          name="email"
+                          placeholder="your@email.com"
+                        />
+                      </UIBox>
+                      <UIBox>
+                        <UIButton>Register</UIButton>
+                      </UIBox>
+                    </UIFlex>
+                  </UIForm>
+                </UIBox>
+              </UIFlex>
+            </UIBox>
+          </UIFlex>
+        </UISection>
       </UIPage>
     </UIApp>
   );
