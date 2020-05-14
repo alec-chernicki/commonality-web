@@ -14,6 +14,7 @@ import {
   Colors,
   UIFormControl,
   UIDivider,
+  useToasts,
 } from '@alecortega/design-system';
 import styled from 'styled-components';
 import axios from 'axios';
@@ -21,18 +22,27 @@ import * as yup from 'yup';
 import Head from 'next/head';
 
 const Home = () => {
+  const { addToast } = useToasts();
   const handleSubmit = (values: { email: string }) => {
-    axios.post(
-      'https://api.hsforms.com/submissions/v3/integration/submit/7282015/b4ba2fcb-0a8c-4e1a-9bc6-dfdd544d89be',
-      {
-        fields: [
-          {
-            name: 'email',
-            value: values.email,
-          },
-        ],
-      }
-    );
+    axios
+      .post(
+        'https://api.hsforms.com/submissions/v3/integration/submit/7282015/b4ba2fcb-0a8c-4e1a-9bc6-dfdd544d89be',
+        {
+          fields: [
+            {
+              name: 'email',
+              value: values.email,
+            },
+          ],
+        }
+      )
+      .then(() => {
+        addToast(
+          "You've successfully registered for the Commmonality beta. We'll let you know when we have more updates!",
+          { appearance: 'success' }
+        );
+      })
+      .catch(() => {});
   };
 
   return (
