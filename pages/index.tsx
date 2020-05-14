@@ -1,5 +1,5 @@
 import { UIApp } from '@alecortega/design-system';
-import HomePage from '../commponents/HomePage';
+import HomePage from '../components/HomePage';
 
 const Home = () => {
   return (
