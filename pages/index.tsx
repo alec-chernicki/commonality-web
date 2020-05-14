@@ -52,7 +52,7 @@ const Home = () => {
               <UIImage src="/commonality-word-light.svg" />
             </UIBox>
           </UIFlex>
-          <UIFlex justify="center" className="m-top-14 p-x-2">
+          <UIFlex justify="center" className="m-top-10 md:m-top-14 p-x-2">
             <UIBox basis="800x" grow={0} shrink={2} className="text-center">
               <UIHeader>Build your company's north star</UIHeader>
               <UIFlex justify="center">
@@ -67,14 +67,18 @@ const Home = () => {
                 <UIBox basis="400px">
                   <UIForm onSubmit={handleSubmit} initialValues={{ email: '' }}>
                     <UIFlex align="center">
-                      <UIBox grow={2} className="m-right-2">
+                      <UIBox
+                        grow={2}
+                        className="m-bottom-4 md:m-bottom-0 md:m-right-2"
+                        basis={{ sm: '100%', md: 'auto' }}
+                      >
                         <UITextInput
                           name="email"
                           placeholder="your@email.com"
                         />
                       </UIBox>
-                      <UIBox>
-                        <UIButton>Register</UIButton>
+                      <UIBox basis={{ sm: '100%', md: 'auto' }}>
+                        <UIButton fullWidth={true}>Register</UIButton>
                       </UIBox>
                     </UIFlex>
                   </UIForm>
@@ -150,14 +154,18 @@ const Home = () => {
                 <UIBox basis="400px">
                   <UIForm onSubmit={handleSubmit} initialValues={{ email: '' }}>
                     <UIFlex align="center">
-                      <UIBox grow={2} className="m-right-2">
+                      <UIBox
+                        grow={2}
+                        className="m-bottom-4 md:m-bottom-0 md:m-right-2"
+                        basis={{ sm: '100%', md: 'auto' }}
+                      >
                         <UITextInput
                           name="email"
                           placeholder="your@email.com"
                         />
                       </UIBox>
-                      <UIBox>
-                        <UIButton>Register</UIButton>
+                      <UIBox basis={{ sm: '100%', md: 'auto' }}>
+                        <UIButton fullWidth={true}>Register</UIButton>
                       </UIBox>
                     </UIFlex>
                   </UIForm>
