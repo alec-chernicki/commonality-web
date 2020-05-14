@@ -68,23 +68,23 @@
     <use fill="rgb(255,255,255)" xlink:href="#path-5"/>
   </g>
   <text font-size="0" style="white-space:pre">
-    <tspan x="40" y="54" fill="rgb(75,85,99)" font-family="Proxima Nova" font-size="16" font-weight="600" style="white-space:pre;text-transform:none">Increase customer life time value</tspan>
+    <tspan x="40" y="54" fill="rgb(75,85,99)" font-family="proxima-nova" font-size="16" font-weight="600" style="white-space:pre;text-transform:none">Increase customer life time value</tspan>
   </text>
   <text font-size="0" style="white-space:pre">
-    <tspan x="202" y="137" fill="rgb(75,85,99)" font-family="Proxima Nova" font-size="16" font-weight="600" style="white-space:pre;text-transform:none">Decrease chrun rate by 4%</tspan>
+    <tspan x="202" y="137" fill="rgb(75,85,99)" font-family="proxima-nova" font-size="16" font-weight="600" style="white-space:pre;text-transform:none">Decrease chrun rate by 4%</tspan>
   </text>
   <g>
     <text font-size="0" style="white-space:pre">
-      <tspan x="480.627" y="137" fill="rgb(75,85,99)" font-family="Proxima Nova" font-size="14" font-weight="400" style="white-space:pre;text-transform:none">Off track</tspan>
+      <tspan x="480.627" y="137" fill="rgb(75,85,99)" font-family="proxima-nova" font-size="14" font-weight="400" style="white-space:pre;text-transform:none">Off track</tspan>
     </text>
     <ellipse cx="470.179" cy="132.5" fill="rgb(236,201,75)" rx="4.179" ry="4"/>
   </g>
   <text font-size="0" style="white-space:pre">
-    <tspan x="202" y="219" fill="rgb(75,85,99)" font-family="Proxima Nova" font-size="16" font-weight="600" style="white-space:pre;text-transform:none">Increase retention rate by 6%</tspan>
+    <tspan x="202" y="219" fill="rgb(75,85,99)" font-family="proxima-nova" font-size="16" font-weight="600" style="white-space:pre;text-transform:none">Increase retention rate by 6%</tspan>
   </text>
   <g>
     <text font-size="0" style="white-space:pre">
-      <tspan x="468" y="220" fill="rgb(75,85,99)" font-family="Proxima Nova" font-size="14" font-weight="400" style="white-space:pre;text-transform:none">Completed</tspan>
+      <tspan x="468" y="220" fill="rgb(75,85,99)" font-family="proxima-nova" font-size="14" font-weight="400" style="white-space:pre;text-transform:none">Completed</tspan>
     </text>
     <ellipse cx="458" cy="215.5" fill="rgb(72,187,120)" rx="4" ry="4"/>
   </g>
@@ -115,7 +115,7 @@
   <g>
     <path fill="rgb(198,246,213)" fill-rule="evenodd" d="M440 40h93c1.65574507 0 3 1.34425493 3 3v13c0 1.65574507-1.34425493 3-3 3h-93c-1.65574507 0-3-1.34425493-3-3V43c0-1.65574507 1.34425493-3 3-3z"/>
     <text font-size="0" style="white-space:pre">
-      <tspan x="445.82" y="53" fill="rgb(47,133,90)" font-family="Proxima Nova" font-size="12" font-weight="600" style="white-space:pre;text-transform:none">Positive Impact</tspan>
+      <tspan x="445.82" y="53" fill="rgb(47,133,90)" font-family="proxima-nova" font-size="12" font-weight="600" style="white-space:pre;text-transform:none">Positive Impact</tspan>
     </text>
   </g>
 </svg>
