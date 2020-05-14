@@ -47,12 +47,12 @@ const Home = () => {
           fullWidth={true}
           fullscreen={true}
         >
-          <UIFlex>
-            <UIBox basis="180px" grow={0} shrink={0}>
+          <UIFlex justify={{ sm: 'center', md: 'flex-start' }}>
+            <UIBox basis={{ sm: '140px', md: '180px' }} grow={0} shrink={0}>
               <UIImage src="/commonality-word-light.svg" />
             </UIBox>
           </UIFlex>
-          <UIFlex justify="center" className="m-top-10 md:m-top-14 p-x-2">
+          <UIFlex justify="center" className="m-top-12 md:m-top-14 p-x-2">
             <UIBox basis="800x" grow={0} shrink={2} className="text-center">
               <UIHeader>Build your company's north star</UIHeader>
               <UIFlex justify="center">
@@ -90,15 +90,15 @@ const Home = () => {
         <UISection use="neutral" className="p-bottom-10">
           <UIFlex justify="center" className="m-top-6">
             <UIBox basis="960px" grow={0}>
-              <UIFlex align="center">
+              <UIFlex align="center" justify="center">
                 <UIBox
                   basis={{ sm: '100%', md: '50%' }}
                   grow={0}
-                  className="md:m-right-6"
+                  className="md:m-right-6 m-bottom-4 md:m-bottom-0"
                 >
                   <UIImage src="/goals.svg" />
                 </UIBox>
-                <UIBox basis="400px">
+                <UIBox basis="400px" className="text-center md:text-left">
                   <UIHeader level="3">Measureable goals</UIHeader>
                   <p>
                     From OKRS to SMART goals and everything in between, create
@@ -116,15 +116,15 @@ const Home = () => {
         <UISection use="light" className="p-top-10">
           <UIFlex justify="center" className="m-top-6">
             <UIBox basis="960px" grow={0}>
-              <UIFlex align="center">
+              <UIFlex align="center" justify="center">
                 <UIBox
                   basis={{ sm: '100%', md: '50%' }}
                   grow={0}
-                  className="md:m-right-6"
+                  className="md:m-right-6 m-bottom-4 md:m-bottom-0"
                 >
                   <UIImage src="/alignment.svg" />
                 </UIBox>
-                <UIBox basis="400px">
+                <UIBox basis="400px" className="text-center md:text-left">
                   <UIHeader level="3">Top to bottom alignment</UIHeader>
                   <p>
                     Gain true insight into the performance of your business and
