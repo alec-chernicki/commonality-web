@@ -43,7 +43,9 @@ const HomePage = () => {
   return (
     <>
       <Head>
-        <title>Commonality</title>
+        <title>
+          Commonality | Goal and alignment software for companies of all sizes.
+        </title>
       </Head>
       <UIPage>
         <UISection

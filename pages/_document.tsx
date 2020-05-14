@@ -33,14 +33,30 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          <meta
+            content="Unify data from the software your employees love and tie goals from every team back to key company metrics."
+            name="description"
+          ></meta>
           <meta property="og:title" content="Build your company's north star" />
           <meta
             property="og:description"
             content="Unify data from the software your employees love and tie goals from every team back to key company metrics."
           />
           <meta property="og:image" content="/meta-image.jpg" />
+          <meta property="og:type" content="website" />
+          <meta
+            property="twitter:title"
+            content="Build your company's north star"
+          />
+          <meta
+            property="twitter:description"
+            content="Unify data from the software your employees love and tie goals from every team back to key company metrics."
+          />
+          <meta content="summary_large_image" name="twitter:card" />
+          <meta content="width=device-width, initial-scale=1" name="viewport" />
           <link rel="icon" href="/favicon.ico" />
           <link rel="stylesheet" href="https://use.typekit.net/hrd8sxz.css" />
+
           <script src="/segment.js" />
         </Head>
         <body>
