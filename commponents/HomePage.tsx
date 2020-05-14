@@ -64,7 +64,7 @@ const HomePage = () => {
                 <UIBox basis="500px" grow={0} shrink={2}>
                   <UIHeader level="5">
                     Unify data from the software your employees love and tie
-                    goals from every team back to key company metrics
+                    goals from every team back to key company metrics.
                   </UIHeader>
                 </UIBox>
               </UIFlex>
