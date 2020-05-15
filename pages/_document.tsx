@@ -63,10 +63,6 @@ export default class MyDocument extends Document {
           <meta content="summary_large_image" name="twitter:card" />
           <meta content="width=device-width, initial-scale=1" name="viewport" />
           <link rel="icon" href="/favicon.ico" />
-          <link
-            rel="stylesheet"
-            href="https://p.typekit.net/p.css?s=1&k=hrd8sxz&ht=tk&f=139.173.175.5474.25136.13378.13380.13382&a=1484987&app=typekit&e=css"
-          />
           <script src="/segment.js" />
         </Head>
         <body>
