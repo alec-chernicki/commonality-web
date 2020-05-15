@@ -45,7 +45,7 @@ export default class MyDocument extends Document {
           />
           <meta
             property="og:image"
-            content="https://commonality.co/meta-image.jpg"
+            content="https://www.commonality.co/meta-image.jpg"
           />
           <meta property="og:type" content="website" />
           <meta
