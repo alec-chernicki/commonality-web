@@ -153,8 +153,8 @@ const HomePage = () => {
             <UIBox basis="600px" className="text-center">
               <UIHeader level="3">Get notified when we launch</UIHeader>
               <p>
-                We're still working on getting everything perfect for you,
-                signup for updates and be the first to know when we launch.
+                We're still working on making everything perfect for you, signup
+                for updates and be the first to know when we launch.
               </p>
               <UIFlex justify="center" className="m-top-6">
                 <UIBox basis="400px">

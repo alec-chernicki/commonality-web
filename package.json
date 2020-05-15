@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@alecortega/design-system": "0.10.56",
+    "@next/bundle-analyzer": "^9.4.0",
     "@zeit/next-source-maps": "^0.0.3",
     "axios": "^0.19.2",
     "next": "9.4.0",
