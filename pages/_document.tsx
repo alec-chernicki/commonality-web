@@ -34,30 +34,37 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          <meta
+            content="Unify data from the software your employees love and tie SMART goals or OKRs from every team back to key company metrics."
+            name="description"
+          />
+          <meta property="og:title" content="Build your company's north star" />
+          <meta
+            property="og:description"
+            content="Unify data from the software your employees love and tie SMART goals or OKRs from every team back to key company metrics."
+          />
+          <meta
+            property="og:image"
+            content="https://www.commonality.co/meta-image.jpg"
+          />
+          <meta property="og:type" content="website" />
+          <meta
+            property="twitter:title"
+            content="Build your company's north star"
+          />
+          <meta
+            property="twitter:description"
+            content="Unify data from the software your employees love and tie SMART goals or OKRs from every team back to key company metrics."
+          />
+          <meta content="summary_large_image" name="twitter:card" />
           <meta content="width=device-width, initial-scale=1" name="viewport" />
           <link rel="icon" href="/favicon.ico" />
-          <link rel="stylesheet" href="https://use.typekit.net/hrd8sxz.css" />
-
+          <link
+            rel="stylesheet"
+            href="https://p.typekit.net/p.css?s=1&k=hrd8sxz&ht=tk&f=139.173.175.5474.25136.13378.13380.13382&a=1484987&app=typekit&e=css"
+          />
           <script src="/segment.js" />
         </Head>
-        <NextSeo
-          title="Commonality | Goal and alignment software for companies of all sizes."
-          description="Unify data from the software your employees love and tie SMART goals or OKRs from every team back to key company metrics."
-          canonical="https://www.commonality.co"
-          openGraph={{
-            url: 'https://www.commonality.co',
-            title:
-              'Commonality | Goal and alignment software for companies of all sizes.',
-            description:
-              'Unify data from the software your employees love and tie SMART goals or OKRs from every team back to key company metrics.',
-            images: [{ url: 'https://www.commonality.co/meta-image.jpg' }],
-            site_name: 'Commonality',
-          }}
-          twitter={{
-            site: 'https://www.commonality.co',
-            cardType: 'summary_large_image',
-          }}
-        />
         <body>
           <UIApp>
             <Main />

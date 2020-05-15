@@ -1,4 +1,4 @@
-!(function() {
+!(function () {
   var analytics = (window.analytics = window.analytics || []);
   if (!analytics.initialize)
     if (analytics.invoked)
@@ -24,28 +24,30 @@
         'once',
         'off',
         'on',
+        'addSourceMiddleware',
+        'addIntegrationMiddleware',
       ];
-      analytics.factory = function(t) {
-        return function() {
-          var e = Array.prototype.slice.call(arguments);
-          e.unshift(t);
-          analytics.push(e);
+      analytics.factory = function (e) {
+        return function () {
+          var t = Array.prototype.slice.call(arguments);
+          t.unshift(e);
+          analytics.push(t);
           return analytics;
         };
       };
-      for (var t = 0; t < analytics.methods.length; t++) {
-        var e = analytics.methods[t];
-        analytics[e] = analytics.factory(e);
+      for (var e = 0; e < analytics.methods.length; e++) {
+        var t = analytics.methods[e];
+        analytics[t] = analytics.factory(t);
       }
-      analytics.load = function(t, e) {
+      analytics.load = function (e, t) {
         var n = document.createElement('script');
         n.type = 'text/javascript';
         n.async = !0;
         n.src =
-          'https://cdn.segment.com/analytics.js/v1/' + t + '/analytics.min.js';
+          'https://cdn.segment.com/analytics.js/v1/' + e + '/analytics.min.js';
         var a = document.getElementsByTagName('script')[0];
         a.parentNode.insertBefore(n, a);
-        analytics._loadOptions = e;
+        analytics._loadOptions = t;
       };
       analytics.SNIPPET_VERSION = '4.1.0';
       analytics.load('N0WEkuAV6zhqAaPzIBFXmkKs9yEimlyB');
