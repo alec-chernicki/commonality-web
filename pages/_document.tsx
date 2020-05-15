@@ -34,6 +34,10 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          <title>
+            Commonality | Goal and alignment software for companies of all
+            sizes.
+          </title>
           <meta
             content="Unify data from the software your employees love and tie SMART goals or OKRs from every team back to key company metrics."
             name="description"

@@ -11,9 +11,6 @@ import {
   useToasts,
 } from '@alecortega/design-system';
 import axios from 'axios';
-import Head from 'next/head';
-
-import AlignmentImage from './AlignmentImage';
 
 const HomePage = () => {
   const { addToast } = useToasts();
@@ -50,7 +47,10 @@ const HomePage = () => {
         >
           <UIFlex justify={{ sm: 'center', md: 'flex-start' }}>
             <UIBox basis={{ sm: '140px', md: '180px' }} grow={0} shrink={0}>
-              <UIImage src="/commonality-word-light.svg" />
+              <UIImage
+                src="/commonality-word-light.svg"
+                alt="Commonality logo"
+              />
             </UIBox>
           </UIFlex>
           <UIFlex justify="center" className="m-top-12 md:m-top-14 p-x-2">
@@ -99,7 +99,7 @@ const HomePage = () => {
                   grow={0}
                   className="md:m-right-6 m-bottom-4 md:m-bottom-0"
                 >
-                  <UIImage src="/goals.svg" />
+                  <UIImage src="/goals.svg" alt="OKR goal example" />
                 </UIBox>
                 <UIBox basis="400px" className="text-center md:text-left">
                   <UIHeader level="3">Measureable goals</UIHeader>
@@ -125,7 +125,10 @@ const HomePage = () => {
                   grow={0}
                   className="md:m-right-6 m-bottom-4 md:m-bottom-0"
                 >
-                  <UIImage src="/alignment.svg" />
+                  <UIImage
+                    src="/alignment.svg"
+                    alt="Company alignment example"
+                  />
                 </UIBox>
                 <UIBox basis="400px" className="text-center md:text-left">
                   <UIHeader level="3">Top to bottom alignment</UIHeader>
