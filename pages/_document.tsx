@@ -36,13 +36,17 @@ export default class MyDocument extends Document {
           <meta
             content="Unify data from the software your employees love and tie goals from every team back to key company metrics."
             name="description"
-          ></meta>
+          />
+          <link rel="dns-prefetch" href="https://use.typekit.net/" />
           <meta property="og:title" content="Build your company's north star" />
           <meta
             property="og:description"
             content="Unify data from the software your employees love and tie goals from every team back to key company metrics."
           />
-          <meta property="og:image" content="/meta-image.jpg" />
+          <meta
+            property="og:image"
+            content="https://commonality.co/meta-image.jpg"
+          />
           <meta property="og:type" content="website" />
           <meta
             property="twitter:title"
