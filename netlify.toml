@@ -1,3 +1,9 @@
 [build]
   command = "yarn build && yarn export"
   publish = "out"
+
+[[plugins]]
+  package = "netlify-plugin-inline-source"
+  package = "netlify-plugin-cache-nextjs"
+  package = "@netlify/plugin-sitemap"
+  package = "netlify-plugin-subfont"
