@@ -13,6 +13,8 @@ import {
 import axios from 'axios';
 import Head from 'next/head';
 
+import AlignmentImage from './AlignmentImage';
+
 const HomePage = () => {
   const { addToast } = useToasts();
   const handleSubmit = (values: { email: string }) => {
@@ -96,7 +98,7 @@ const HomePage = () => {
         <UISection use="neutral" className="p-bottom-10">
           <UIFlex justify="center" className="m-top-6">
             <UIBox basis="960px" grow={0}>
-              <UIFlex align="center" justify="center">
+              <UIFlex align="center" justify="center" wrap="nowrap">
                 <UIBox
                   basis={{ sm: '100%', md: '50%' }}
                   grow={0}
@@ -122,7 +124,7 @@ const HomePage = () => {
         <UISection use="light" className="p-top-10">
           <UIFlex justify="center" className="m-top-6">
             <UIBox basis="960px" grow={0}>
-              <UIFlex align="center" justify="center">
+              <UIFlex align="center" justify="center" wrap="nowrap">
                 <UIBox
                   basis={{ sm: '100%', md: '50%' }}
                   grow={0}
