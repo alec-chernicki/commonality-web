@@ -9,9 +9,13 @@
   },
   "dependencies": {
     "@alecortega/design-system": "0.10.52",
+    "@zeit/next-source-maps": "^0.0.3",
     "axios": "^0.19.2",
     "next": "9.4.0",
+    "next-compose-plugins": "^2.2.0",
     "next-images": "^1.4.0",
+    "next-offline": "^5.0.2",
+    "next-seo": "^4.4.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-is": "^16.13.1",

@@ -3,10 +3,4 @@
   publish = "out"
 
 [[plugins]]
-  package = "netlify-plugin-inline-source"
-
-[[plugins]]
   package = "netlify-plugin-cache-nextjs"
-
-[[plugins]]
-  package = "@netlify/plugin-sitemap"
