@@ -34,14 +34,14 @@ export default class MyDocument extends Document {
       <Html>
         <Head>
           <meta
-            content="Unify data from the software your employees love and tie goals from every team back to key company metrics."
+            content="Unify data from the software your employees love and tie SMART goals or OKRs from every team back to key company metrics."
             name="description"
           />
           <link rel="dns-prefetch" href="https://use.typekit.net/" />
           <meta property="og:title" content="Build your company's north star" />
           <meta
             property="og:description"
-            content="Unify data from the software your employees love and tie goals from every team back to key company metrics."
+            content="Unify data from the software your employees love and tie SMART goals or OKRs from every team back to key company metrics."
           />
           <meta
             property="og:image"
@@ -54,7 +54,7 @@ export default class MyDocument extends Document {
           />
           <meta
             property="twitter:description"
-            content="Unify data from the software your employees love and tie goals from every team back to key company metrics."
+            content="Unify data from the software your employees love and tie SMART goals or OKRs from every team back to key company metrics."
           />
           <meta content="summary_large_image" name="twitter:card" />
           <meta content="width=device-width, initial-scale=1" name="viewport" />
