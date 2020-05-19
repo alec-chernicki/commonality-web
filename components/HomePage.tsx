@@ -105,7 +105,7 @@ const HomePage = () => {
                   <UIHeader level="3">Measureable goals</UIHeader>
                   <p>
                     From OKRS to SMART goals and everything in between, create
-                    goals unique caterered to your business. Create measurable
+                    goals uniquely catered to your business. Create measurable
                     results that define success and monitor the progression of
                     those goals against your financial deadlines. Manually
                     update goals or automatically collect data from the tools
@@ -133,10 +133,10 @@ const HomePage = () => {
                 <UIBox basis="400px" className="text-center md:text-left">
                   <UIHeader level="3">Top to bottom alignment</UIHeader>
                   <p>
-                    Gain true insight into the performance of your business and
-                    tie goals from every team back to key company metrics.
-                    Instantly view the health of your company and discover areas
-                    of opportunity or areas for investment.
+                    Gain insight into the performance of your business and tie
+                    goals from every team back to key company metrics. Instantly
+                    view the health of your company and discover areas of
+                    opportunity or regions for investment.
                   </p>
                 </UIBox>
               </UIFlex>
