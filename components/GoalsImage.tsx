@@ -255,7 +255,7 @@ function GoalsImage() {
           font-weight="600"
           style={{ whiteSpace: 'pre', textTransform: 'none' }}
         >
-          Decrease chrun rate by 4%
+          Decrease churn rate by 4%
         </tspan>
       </text>
       <g>
